@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios y descuentos</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Precios y Descuentos</h1>
+        <p>Página dedicada a que yo practique.</p>
+    </header>
+
+    <form>
+
+        <label for="inputPrice">Ingrese el precio del producto</label>
+        <input id="inputPrice" type="text"/>
+        
+        <label for="inputCoupon">Ingrese el cupon a utilizar</label>
+        <input id="inputCoupon" type="text"/>
+
+
+        <button type="button" onclick="onclickButtonCalcular()">
+            Calcular precio a pagar
+        </button>
+
+        <p id="inputResultado"></p> <!-- Espacio en el que le entrego el resultado al usuario. -->
+
+    </form>
+
+    <script src="precios.js"></script>
+</body>
+</html>
